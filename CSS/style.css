@@ -1,0 +1,210 @@
+
+/*Table of Content
+
+
+    1. Default css
+    2. Preloader css
+    3. Mouse Animation css
+    4. Nav Area css
+    5. Banner Area css
+
+*/
+
+/*--- 1. Default css starts ---*/
+
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 110%;
+    font-size: 15px;
+    line-height: 1.7;
+    color: white;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: white;
+    font-weight: 600;
+}
+
+p {
+    letter-spacing: 0;
+    line-height:1.8;
+}
+
+a{
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+a:focus{
+    outline:none;
+    text-decoration: none;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding: 60px 0;
+}
+
+.section-header{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section-header h2 {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0;
+    color: rgb(0, 0, 0);
+}
+/*---------- 4. Nav area css starts -------------*/
+
+.nav-area{
+    height: 50px;
+    background: darkslategray;
+    text-align: center;
+}
+
+.navbar-brand{
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    display: block;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.logo {
+    text-align: center;
+    padding: 5px;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.logo span {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+/*---------- Nav area css ends -------------*
+
+/*----------- 5. Banner area css starts--------------*/
+
+
+.banner-area{
+
+    background: url(photo5897865322004853096.jpg);  /*--edit image--*/
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    height: 100%;
+}
+
+.banner-area::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#bigtext {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+#slogan {
+    margin-top: -10px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: underline;
+    text-decoration-color: lightseagreen;
+}
+
+#steptext {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+#step1{
+    text-align: center;
+    margin-top: -11px;
+    
+}
+#step2 {
+    text-align: center;
+    margin-top: -11px;
+}
+#step3 {
+    text-align: center;
+    margin-top: -11px;
+}
+
+.banner-btn {
+    background: lightseagreen;
+    border: 1px solid lightseagreen;
+    text-decoration: none;
+    padding: 7px 66px;
+    display: inline-block;
+    margin-top: 5px; /* copy this code */
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    text-align: center;
+}
+.form {
+    text-align: center;
+    color: white;
+}
+#tick {
+    color: black;
+}
+.colo {
+    color: darkseagreen;
+}
+/*---------Banner area css ends--------------*/
